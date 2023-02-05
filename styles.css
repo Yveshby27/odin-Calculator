@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border-style:solid;
+    padding:20px;
+    width:400px;
+    margin-left:450px;
+margin-top:100px;
+background-color: black;
+}
+.container .input{
+border-style: solid;
+text-align: right;
+height:70px;
+background-color: white;
+}
+.input .current{
+    margin-top:10px;
+    font-size:30px;
+}
+.input .previous{
+    font-size:20px;
+}
+.container-buttons
+{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:7px;
+    margin-top: 5px;
+    
+}
+.container button{
+    padding:20px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-style: none;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.container-buttons .digit{
+    background-color: orange;
+}
+.container-buttons .operator{
+    background-color:blue;
+    color:white;
+}
+.container-buttons .equals{
+    background-color: lightgreen;
+}
+.container-buttons .backspace{
+    background-color:red;
+}
+.container-buttons .clear{
+    background-color:grey;
+}
